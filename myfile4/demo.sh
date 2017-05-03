@@ -1,0 +1,1 @@
+./build/examples/cpp_classification/classification.bin examples/myfile4/deploy.prototxt examples/myfile4/my_iter_2000.caffemodel examples/myfile4/mean.binaryproto examples/myfile4/synset_words.txt examples/myfile4/images/111.jpg

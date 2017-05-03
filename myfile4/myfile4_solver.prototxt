@@ -1,0 +1,14 @@
+net: "examples/myfile4/myfile4_train_test.prototxt"
+test_iter: 2
+test_interval: 50
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 400
+momentum: 0.9
+weight_decay: 0.004
+display: 10
+max_iter: 2000
+snapshot: 2000
+snapshot_prefix: "examples/myfile4/my"
+solver_mode: CPU
