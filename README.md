@@ -9,9 +9,9 @@ http://blog.csdn.net/gaohuazhao/article/details/69568267
 1.训练
 在caffe根目录下执行: build/tools/caffe train -solver examples/myfile4/myfile4_solver.prototxt即可,我设置的是2000次保存模型
                                                        
-2.测试,即用训练好的模型来进行分类
+2.测试,即用训练好的模型来进行分类                                                    
 1)c++方法
-为了方便,我写了demo.sh脚本里,直接在caffe根目录下执行:sh examples/myfile4/demo.sh即可,但是要注意是在caffe根目录下执行,要不会出错
+为了方便,我写了demo.sh脚本里,直接在caffe根目录下执行:sh examples/myfile4/demo.sh即可,但是要注意是在caffe根目录下执行,要不会出错                    
 2)python方法
 py-classify.py脚本
 
